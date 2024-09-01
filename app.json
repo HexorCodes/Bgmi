@@ -1,0 +1,15 @@
+{
+    "name": "bgmi",
+    "env": {},
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

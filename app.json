@@ -1,5 +1,6 @@
 {
     "name": "bgmi",
+    "stack": "heroku-24",
     "env": {},
     "formation": {
         "worker": {

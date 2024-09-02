@@ -6,6 +6,13 @@ import datetime
 import os
 
 from keep_alive import keep_alive
+
+try:
+    os.system("chmod +x bgmi")
+except:
+    pass
+
+
 keep_alive()
 # Insert your Telegram bot token here
 bot = telebot.TeleBot('6740724216:AAE6ffOwnew_zjv0RQlRUu7mS53OcDSJMyY')

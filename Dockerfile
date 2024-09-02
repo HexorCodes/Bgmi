@@ -7,4 +7,4 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 RUN chmod +x bgmi
-CMD python3 serverr.py
+CMD python3 main.py
